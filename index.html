@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Homepage</title>
+               <!--link of font-style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+              <!--link of library of search-icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src ="./script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+        <input type="text" class="search-bar">
+        <!--search-icon link -->
+        <button><i class="fa fa-search" aria-hidden="true"></i> </button>
+        </div>
+
+    <!--Description of card items-->
+      <div class="weather">
+         <h2 class="city">Weather in Denver</h2>
+         <h1 class="temp">51°C</h1>
+         <img src="https://openweathermap.org/img/wn/04n.png"  alt="" class="icon"/>
+         <div class="flex">
+         <div class="description">Cloudy</div>
+        </div>
+         <div class="humidity">Humidity:60%</div>
+         <div class="wind">Wind speed:6.2 km/h</div>
+       </div>
+    </div>   
+</body>
+</html>      
